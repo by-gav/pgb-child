@@ -1,5 +1,5 @@
 /*
- Theme Name:   PGB Child - Ruby G's Version
+ Theme Name:   PGB Child
  Theme URI:    https://github.com/progothemes/pgb-child
  Description:  Example child theme of ProGo Base pgb. Currently just enqueues the default pgb style.css as well, and has no extra sidebars or Page Templates or anything else. But you could fork it and make it do more?
  Author:       ProGo
@@ -11,26 +11,3 @@
 */
 
 /* and then? */
-
-/* Pages */
-.page-header { margin: 0 0 20px; }
-
-/* Sidebar */
-.sidebar h3, .sidebar .h3 { font-size: 20px; }
-
-/* Custom Page Template: Left Sidebar */
-.page-template-page_left_sidebar #content { float: right; }
-.page-template-page_left_sidebar .sidebar { float: left; }
-
-/* Contact Page */
-#contact_form label { width: 195px; }
-#contact_form label.textarea { vertical-align: top; }
-#contact_form .form-control { display: inline; width: inherit; }
-
-/* Media Queries */
-@media only screen and (max-width: 991px) {
-	#contact_form .form-control { display: block; width: 100%; }
-}
-@media only screen and (max-width: 767px) {
-	.page-template-page_left_sidebar #content { float: none; }
-}
